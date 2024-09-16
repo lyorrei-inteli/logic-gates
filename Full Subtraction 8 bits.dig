@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Fonte</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Ov</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1380" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Full Adder 8 bits.dig</elementName>
+      <elementAttributes/>
+      <pos x="1180" y="440"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="820" y="320"/>
+      <p2 x="980" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="480"/>
+      <p2 x="1180" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="580"/>
+      <p2 x="920" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="580"/>
+      <p2 x="1020" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="660"/>
+      <p2 x="1140" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="340"/>
+      <p2 x="1380" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="440"/>
+      <p2 x="1180" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="440"/>
+      <p2 x="1340" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="460"/>
+      <p2 x="1180" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1240" y="460"/>
+      <p2 x="1340" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="540"/>
+      <p2 x="1380" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="320"/>
+      <p2 x="980" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="480"/>
+      <p2 x="1140" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="460"/>
+      <p2 x="1020" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="340"/>
+      <p2 x="1340" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1340" y="460"/>
+      <p2 x="1340" y="540"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
